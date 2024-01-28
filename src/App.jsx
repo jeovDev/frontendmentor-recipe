@@ -1,12 +1,12 @@
 import omelette from "./assets/images/image-omelette.jpeg";
 function App() {
   return (
-    <div className="bg-background p-5">
-      <div className="p-5 bg-white rounded-xl">
+    <div className="bg-background p-10">
+      <div className="p-5 bg-white rounded-xl content">
 
   
-      <div className="cover">
-        <img className="rounded-2xl" src={omelette} alt="" />
+      <div className="cover max-h-header overflow-hidden">
+        <img className="rounded-2xl w-screen" src={omelette} alt="" />
       </div>
       <div className="title-details mt-5">
         <h6 className="text-2xl font-youngSerif font-light">
@@ -22,7 +22,7 @@ function App() {
       </div>
 
       <div className="preparation p-5 bg-recipe mt-5 rounded-2xl">
-        <h1 className="text-recipe text-xl font-medium font-outfitFont">Prepation Time</h1>
+        <h1 className="text-recipe text-xl font-medium font-outfitFont">Preparation Time</h1>
         <ul className="text-sm m-3 mx-10 flex flex-col gap-1 list-disc"> 
           <li><span className="font-medium">Total : </span> Approximately 10 minutes</li>
           <li> <span className="font-medium">Preparation : </span> 5 minutes</li>

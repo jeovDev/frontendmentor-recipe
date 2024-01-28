@@ -13,6 +13,9 @@ export default {
       textColor:{
         'recipe' : '#5C2F44',
         'title' : '#7E4D43'
+      },
+      maxHeight:{
+        'header' : '35rem'
       }
     },
   },
